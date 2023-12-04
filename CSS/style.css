@@ -1,0 +1,146 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #0a0a0a;
+}
+
+.header{
+    background-color: #444444;
+    padding: 33px 0 32px;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+} 
+
+.phone{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+.menu-item{
+    padding-right: 30px;
+}
+
+.headline{
+    background-color: #f5f5f7;
+    text-align: center;
+    padding: 40px 0 80px;
+    text-transform: uppercase;
+}
+
+.title{
+    text-transform: uppercase;
+    margin: 0 0 40px;
+    color: #f46918;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.headline-img{
+    margin-bottom: 25px;
+}
+
+.headline-btn{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #f46918;
+    padding: 22px 117px 19px;
+    border-radius: 15px;
+}
+
+.info{
+    padding: 90px 0 150px;
+
+}
+
+.info-title,
+.model-title{
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #717171;
+    font-size: 32;
+    line-height: 39px;
+    font-weight: 700;
+}
+
+.stihl-info{
+    display: flex;
+    align-items: center;
+}
+
+.info-text p{
+    max-width: 550px;
+    margin: 0 0 30px;
+}
+
+.images-info{
+    display: flex;
+    align-content: center;
+    margin-left: 700px;
+    margin-top: -300px;   
+}
+
+.model{
+    padding-bottom: 150px;
+}
+
+.model-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer{
+    background-color: #444444;
+}
+
+.footer-link{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.footer-inner{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
